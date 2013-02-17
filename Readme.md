@@ -20,7 +20,8 @@ anchor.onclick = function(e){
 
 ### prevent(e)
 
-  Prevent the given `e`.
+  Prevent the given `e`, if the argument is omitted,
+  the method will fallback to `window.event`.
 
 ## License
 
